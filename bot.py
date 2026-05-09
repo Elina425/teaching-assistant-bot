@@ -39,15 +39,6 @@ from tools.slides import parse_slides
 
 load_dotenv()
 
-# Values copied from .env.example — refuse to boot until a real BotFather token is set.
-_INVALID_TOKEN_MARKERS = frozenset(
-    {
-        "your_telegram_bot_token_here",
-        "changeme",
-        "replace_me",
-    }
-)
-
 logging.basicConfig(
     format="%(asctime)s %(name)s %(levelname)s  %(message)s",
     level=logging.INFO,

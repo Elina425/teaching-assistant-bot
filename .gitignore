@@ -10,7 +10,6 @@ __pycache__/
 *.pyzw
 *.pyzwz
 traces.json
-*.txt
 *.csv
 *.json
 *.log
